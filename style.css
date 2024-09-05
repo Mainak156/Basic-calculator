@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.container{
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#data{
+    width: 100%;
+    padding: 25px;
+    font-size: 3em;
+    border: none;
+    text-align: center;
+    background-color: hsla(0, 0%, 20%);
+    color: whitesmoke;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 45%;
+    border: none;
+    background-color: hsla(0, 0%, 40%);
+    color: white;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsla(0, 0%, 50%);    
+}
+button:active{
+    background-color: hsla(0, 0%, 65%);    
+}
+.operatorbtn{
+    background-color: hsl(39, 100%, 53%);
+}
+.operatorbtn:hover{
+    background-color: hsl(39, 100%, 63%);
+}
+.operatorbtn:active{
+    background-color: hsl(39, 100%, 78%);
+}
